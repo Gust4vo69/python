@@ -1,0 +1,7 @@
+nome = input('Qual seu nome completo?\n')
+print('Seu nome com letras maiusculas: ', nome.upper())
+print('Seu nome com letras minusculas: ', nome.lower())
+print('Tamanho da string considerando espaços: ', len(nome))
+print('Quantidade de caracteres sem considerar o espaço: ', len(nome.replace(' ', '')))
+splt = nome.split()
+print(len(splt[0]))
